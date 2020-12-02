@@ -69,6 +69,11 @@ Create an plain text file with the following example, modify the file and host i
 **SelfUpgrade(optional):** If **SelfUpgrade** is set to 0 (means disabled),the client behaves the normal update procedure, the client downloads the installer, execute the installer and wait until the update installer ends itself, then the client write the new Version record to local and end the client itself. If **SelfUpgrade** is set to 1 (means enabled), the client downloads the inistaller, execute the installer and write the new Version record to local then end the client itself ***without waiting the installer ends*.** This allows the update installer to replace the binary file of the client, making an upgrade of the updater service.
 
 
+Function Visualization(Flow Chart)
+-------------
+- The logic of function `MainCode_MainExecute()`.
+<img src="https://raw.githubusercontent.com/evilhawk00/System-Privilege-Updater-Service/master/Function%20visualization(Flow%20Chart)/MainCode_MainExecute().jpg" width="100%">
+
 # License
 ###### The MIT License
 
